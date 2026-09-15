@@ -23,13 +23,3 @@ Backend yang direncanakan dapat dihubungkan kemudian: Golang + Gin + GORM + Post
 ```bash
 pnpm install
 pnpm dev
-```
-Buka http://localhost:3000.
-
-### Akun demo
-Password demo: `demo123`
-- Dosen: `dosen@its.ac.id`
-- Asisten: `asisten@its.ac.id`
-- Mahasiswa: `5025251001@student.its.ac.id`
-
-Role saat ini ditentukan frontend hanya untuk preview. Pada implementasi backend, role harus dikirim dari hasil autentikasi server dan jangan dipercaya dari localStorage.
