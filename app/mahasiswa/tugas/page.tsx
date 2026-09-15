@@ -1,0 +1,5 @@
+"use client";
+import AppShell from "@/components/AppShell";
+import { Download, FileText } from "@/components/icons";
+import { assignments } from "@/lib/data";
+export default function MahasiswaTugas(){return <AppShell><div className="page"><div className="page-heading"><div><h1 className="page-title">Tugas Saya</h1><p className="page-subtitle">Akses tugas yang diberikan dosen dan pantau tenggat waktu.</p></div></div><div className="card">{assignments.map(a=><div className="assignment" key={a.title}><div style={{display:"flex",gap:13}}><div className="stat-icon"><FileText size={18}/></div><div><div className="assignment-title">{a.title}</div><div className="assignment-desc">{a.desc}</div><div className="meta" style={{marginTop:8}}>{a.className} · File: {a.file}</div></div></div><div style={{textAlign:"right"}}><div className="deadline">Deadline<br/>{a.due}</div><button className="btn small ghost-blue" style={{marginTop:8}}><Download size={13}/> Unduh</button></div></div>)}</div></div></AppShell>}

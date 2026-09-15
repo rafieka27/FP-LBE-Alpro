@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/macbook/LBE%20ALPRO/FP%20LBE/frontend/MyITS-Recap/app/page.tsx"],"sourcesContent":["import { redirect } from \"next/navigation\";\nexport default function Home() {redirect(\"/login\");}"],"names":["Home"],"mappings":";;;;AAAA;AAAA;;AACe,SAASA;IAAQ,IAAA,yaAAQ,EAAC;AAAU"}}]
+}
