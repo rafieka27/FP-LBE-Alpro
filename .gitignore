@@ -1,0 +1,10 @@
+.next/
+.next/
+.env
+.env.*
+!.env.example
+**/node_modules/
+Frontend.zip
+.next/
+Backend/uploads/
+.DS_Store
