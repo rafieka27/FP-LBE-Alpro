@@ -1,10 +1,10 @@
-[# myITS Recap]([url](https://its.id/m/MyITS-Recap))
+# myITS Recap
 
 **myITS Recap** adalah aplikasi web untuk membantu proses pengelolaan kelas, tugas, nilai, dan rekap nilai mahasiswa secara terintegrasi.
 
 Aplikasi ini memiliki tiga jenis pengguna, yaitu **Dosen**, **Asisten Dosen**, dan **Mahasiswa**, dengan hak akses dan fitur yang berbeda untuk setiap role.
 
----
+--- https://its.id/m/MyITS-Recap
 
 ## Features
 
