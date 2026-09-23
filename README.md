@@ -1,4 +1,4 @@
-# myITS Recap
+[# myITS Recap]([url](https://its.id/m/MyITS-Recap))
 
 **myITS Recap** adalah aplikasi web untuk membantu proses pengelolaan kelas, tugas, nilai, dan rekap nilai mahasiswa secara terintegrasi.
 
